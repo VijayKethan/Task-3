@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_left"
+        android:enabled="true"
+        android:title="@string/Left"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_left"
+
+        />
+
+    <item
+
+        android:id="@+id/action_center"
+        android:enabled="true"
+        android:title="@string/Center"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_center"
+        />
+
+    <item
+
+        android:id="@+id/action_right"
+        android:enabled="true"
+        android:title="@string/Right"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_right"
+        />
+
+</menu>
